@@ -16,7 +16,7 @@ body > div {
   display: flex;
 }
 #navbar {
-  padding: 2em;
+  display: flex;
   justify-content: space-evenly;
 }
 #main-section {
@@ -28,11 +28,117 @@ body > div {
   align-items: center;
   justify-content: center;
 }
+a {
+  text-decoration: none;
+} 
+.red-nav {
+  background-color: #b05f6d;
+  color: #fff;
+  border: 1px solid #fff ;
+  padding: 2rem;
+  width: 100%;
+}
 .red {
   background-color: #b05f6d;
   color: white;
 }
+.orange-nav {
+  background-color: orange;
+  color: #fff;
+  border: 1px solid #fff ;
+  padding: 2rem;
+  width: 100%;
+}
+.orange {
+  background-color: orange;
+  color: white;
+}
+.yellow-nav {
+  background-color: yellow;
+  color: #fff;
+  border: 1px solid #fff ;
+  padding: 2rem;
+  width: 100%;
+}
+.yellow {
+  background-color: yellow;
+  color: white;
+}
+.green-nav {
+  background-color: green;
+  color: #fff;
+  border: 1px solid #fff ;
+  padding: 2rem;
+  width: 100%;
+}
+.green {
+  background-color: green;
+  color: white;
+}
+.blue-nav {
+  background-color: #275db3;
+  color: #fff;
+  border: 1px solid #fff ;
+  padding: 2rem;
+  width: 100%;
+}
 .blue {
   background-color: #275db3;
   color: white;
+}
+.indigo-nav {
+  background-color: indigo;
+  color: #fff;
+  border: 1px solid #fff ;
+  padding: 2rem;
+  width: 100%;
+}
+.indigo {
+  background-color: indigo;
+  color: white;
+}
+.violet-nav {
+  background-color: violet;
+  color: #fff;
+  border: 1px solid #fff ;
+  padding: 2rem;
+  width: 100%;
+}
+.violet {
+  background-color: violet;
+  color: white;
+}
+.home-nav {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff ;
+  padding: 2rem;
+  width: 100%;
+}
+.home {
+  background-color: #fff;
+  color: #000;
+}
+.home-nav a {
+  color: #000;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  flex-grow: 1;
+}
+li a {
+  display:inline-flex;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  color: #fff;
 }
